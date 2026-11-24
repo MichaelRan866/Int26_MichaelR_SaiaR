@@ -6,6 +6,7 @@ public class Interactable : MonoBehaviour
     public UnityEvent onClick;
     public GameObject lmbIcon;
     public AudioClip clickSnd;
+    public string desc;
     private GameObject clickPrompt;
     protected bool hovering;
 
